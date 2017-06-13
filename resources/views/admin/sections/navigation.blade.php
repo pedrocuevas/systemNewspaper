@@ -33,6 +33,15 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav side-menu">
+                    <li>
+                        <a href="{{ route('admin.revista') }}">
+                            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                            Revista
+                        </a>
+                    </li>
+                </ul>
+
             </div>
             <div class="menu_section">
                 <h3>{{ __('views.backend.section.navigation.sub_header_1') }}</h3>

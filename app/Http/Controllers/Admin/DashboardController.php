@@ -26,4 +26,10 @@ class DashboardController extends Controller
     {
         return view('admin.dashboard');
     }
+
+    public function revista()
+    {
+        return view('admin.revista');
+    }
+
 }
