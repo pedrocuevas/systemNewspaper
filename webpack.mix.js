@@ -39,13 +39,14 @@ mix.webpackConfig({
 
 mix.scripts([
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/pace-progress/pace.js',
+    'node_modules/pace-progress/pace.js'
 
 ], 'public/assets/app/js/app.js').version();
 
 mix.styles([
     'node_modules/font-awesome/css/font-awesome.css',
-    'node_modules/pace-progress/themes/blue/pace-theme-minimal.css',
+    'node_modules/pace-progress/themes/blue/pace-theme-minimal.css'
+
 ], 'public/assets/app/css/app.css').version();
 
 mix.copy([
@@ -78,13 +79,13 @@ mix.styles([
 
 mix.scripts([
     'node_modules/bootstrap/dist/js/bootstrap.js',
-    'node_modules/gentelella/build/js/custom.js',
+    'node_modules/gentelella/build/js/custom.js'
 ], 'public/assets/admin/js/admin.js').version();
 
 mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.css',
     'node_modules/gentelella/vendors/animate.css/animate.css',
-    'node_modules/gentelella/build/css/custom.css',
+    'node_modules/gentelella/build/css/custom.css'   
 ], 'public/assets/admin/css/admin.css').version();
 
 
@@ -101,6 +102,20 @@ mix.scripts([
 mix.styles([
     'node_modules/select2/dist/css/select2.css',
 ], 'public/assets/admin/css/users/edit.css').version();
+
+
+mix.scripts([
+    'resources/assets/admin/js/jquerypp.custom.js',
+    'resources/assets/admin/js/jquery.bookblock.js',
+    'resources/assets/admin/js/jquery.mlens-1.6.js',
+    'resources/assets/admin/js/modernizr.custom.js'
+], 'public/assets/revista/js/revista.js').version();
+
+mix.styles([
+    'resources/assets/admin/css/default.css',
+    'resources/assets/admin/css/bookblock.css',
+    'resources/assets/admin/css/demo4.css' 
+], 'public/assets/revista/css/revista.css').version();
 
 /*
  |--------------------------------------------------------------------------
